@@ -1,0 +1,51 @@
+* {
+  background-color: rgb(28, 28, 28);
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif; 
+  font-weight: 700; 
+}
+
+h2 {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+p {
+  font-family: 'Nunito', sans-serif;
+}
+
+.skill_image {
+  width: 10rem;
+  height: auto;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+li {
+  background-color: transparent;
+}
+/* navbar */
+.nav-link {
+  color: inherit;
+  transition: color 0.2s ease-in-out;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #198754 !important; 
+}
+
+.nav-link.active {
+  color: #198754 !important;
+  font-weight: 600; 
+}

@@ -11,8 +11,8 @@ const NavbarComponent = ({ activeSection }) => {
         <Navbar.Brand href="#">
           <img src="/assets/image/mepic.jpg" alt="Profile" className="img-fluid rounded" style={{maxWidth: "50px", height: "50px", boxShadow: "0px  -1px 8px #198754"}}/>
           </Navbar.Brand>
-        <Navbar.Toggle aria-controls="navbarScroll" />
-        <Navbar.Collapse id="navbarScroll">
+        <Navbar.Toggle aria-controls="navbarScroll" style={{boxShadow: "0px  .5px 2px #198754"}}/>
+        <Navbar.Collapse id="navbarScroll" >
           <Nav
             className="me-auto my-2 my-lg-0"
             navbarScroll

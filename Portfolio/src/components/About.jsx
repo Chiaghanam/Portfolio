@@ -18,8 +18,8 @@ const About = ({id}) => {
           <h3 className="mt-3">
             <a href="mailto:leofazzy98@gmail.com">leofazzy98@gmail.com</a>
           </h3>
-          <p className="mt-4">
-            My name is <strong>Chiaghanam Amobichukwu</strong>, and I am a passionate software engineer specializing in full‑stack web development. 
+          <p className="mt-4 text-justify">
+            My name is <strong>Chiaghanam Amobichukwu</strong>, and I am a passionate software engineer specializing in <strong>full‑stack web development</strong>. 
             I thrive on building scalable, user‑friendly applications that bridge the gap between ideas and impactful solutions. 
             With a strong focus on solving real‑world problems through technology, I enjoy transforming complex challenges into elegant digital experiences. 
             Whether it’s designing intuitive front‑end interfaces or architecting robust back‑end systems, my goal is always to deliver meaningful solutions that make a difference.
@@ -56,7 +56,7 @@ const About = ({id}) => {
         </div>
         <div className="col-md-6 text-justify ">
           <h3 className="mt-3 text-center">Personal Skills</h3>
-          <p className="mt-3 text-md-end  text-center">
+          <div className="mt-3 text-md-end  text-center">
             <ul type="none">
               <div className="bg-secondary mb-2" style={{width: '80%', padding: '0.5rem 1rem', borderRadius: '0.5rem', display: 'inline-block'}}>
                 <li>Quick Learner</li>
@@ -81,7 +81,7 @@ const About = ({id}) => {
               </div>
             </ul>
             
-          </p>
+          </div>
         </div>
       </div>
 

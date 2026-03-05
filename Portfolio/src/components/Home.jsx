@@ -13,9 +13,10 @@ const Home = ({id}) => {
           <h4 style={{ letterSpacing: "10px" }}>WEB DEVELOPER</h4>
           <h4 style={{ letterSpacing: "10px" }}>SOFTWARE ENGINEER</h4>
           
-            <button type="button" className="btn btn-outline-success mt-3 ">
-              Resume
-            </button>
+              <a href="/Chiaghanam_Amobichukwu_CV.pdf" download="Chiaghanam_Amobichukwu_Resume.pdf" className="btn btn-outline-success mt-3">
+                Download Resume
+              </a>
+
           
           
         </div>

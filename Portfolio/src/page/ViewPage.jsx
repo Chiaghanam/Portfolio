@@ -7,6 +7,7 @@ import Projects from '../components/projects';
 import Contact from '../components/Contact';
 import Footer from '../components/Footer';
 
+
 const ViewPage = () => {
   const [activeSection, setActiveSection] = useState('#home');
 
